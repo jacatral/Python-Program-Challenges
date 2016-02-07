@@ -1,0 +1,8 @@
+Source of the challenges are
+http://www.programming-challenges.com/pg.php?page=studenthome
+Coding was done on Python 3.5.1, so results may vary for Python 2.0
+
+Python code for a given problem is saved as the ID of the problem on the site
+i.e. The code for 'The 3n+1 problem' is found in '110101.py'
+
+The code also runs based on input from a text, which is identified by the ID of the problem
