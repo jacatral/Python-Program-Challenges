@@ -1,3 +1,14 @@
+'''
+    Description:
+To solve the problem, the program manually goes through each integer found
+in the range of the given input and computes the cycle length of the given
+algorithm. Once a sum is computed for a number, it is compared to the
+current maximum to determine if it is the new maximum. Values are changed
+as neccessary until all the numbers have been processed.
+
+This program works best with small ranges for input due to the solution
+being via brute force
+'''
 def cycle( x ):
     # assume we are always working with positive numbers
     y = abs(x)
@@ -25,5 +36,3 @@ for line in f:
             mcyc = cyc_cnt
     print(data + " " + str(mcyc))
 f.close()
-
-# this program works best with small ranges for input
